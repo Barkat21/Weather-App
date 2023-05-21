@@ -6,7 +6,7 @@ const cityInputEl = document.getElementById("city-input");
 
 const formEl = document.querySelector("form");
 
-formE1.addEventListener("submit", (e) => {
+formEl.addEventListener("submit", (e) => {
   e.preventDefault();
   const cityValue = cityInputEl.value;
 
